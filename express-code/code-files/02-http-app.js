@@ -49,4 +49,4 @@ const server = http.createServer((req, res) => {
   }
 })
 
-server.listen(5000)
+server.listen(5000, ()=> console.log("listening at 5000"));
